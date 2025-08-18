@@ -1,0 +1,441 @@
+{
+  "database_info": {
+    "database_name": "tencent.im.db",
+    "persist_directory": "./tencent.im.db",
+    "total_documents": 12,
+    "embedding_model": "TencentLKEEmbeddings",
+    "database_size_mb": 40.76,
+    "database_exists": true
+  },
+  "test_summary": {
+    "total_tests": 8,
+    "successful_tests": 8,
+    "failed_tests": 0,
+    "avg_search_time": 0.366,
+    "avg_keyword_coverage": 0.938,
+    "total_test_time": 16.961,
+    "category_summary": {
+      "群组类型查询": {
+        "avg_coverage": 0.5,
+        "test_count": 1
+      },
+      "群组规模查询": {
+        "avg_coverage": 1.0,
+        "test_count": 1
+      },
+      "权限配置查询": {
+        "avg_coverage": 1.0,
+        "test_count": 1
+      },
+      "群组对比查询": {
+        "avg_coverage": 1.0,
+        "test_count": 1
+      },
+      "数据结构查询": {
+        "avg_coverage": 1.0,
+        "test_count": 1
+      },
+      "消息功能查询": {
+        "avg_coverage": 1.0,
+        "test_count": 1
+      },
+      "功能特性查询": {
+        "avg_coverage": 1.0,
+        "test_count": 1
+      },
+      "规则查询": {
+        "avg_coverage": 1.0,
+        "test_count": 1
+      }
+    }
+  },
+  "test_results": [
+    {
+      "query": "直播群AVChatRoom有什么特点",
+      "category": "群组类型查询",
+      "expected_keywords": [
+        "AVChatRoom",
+        "直播群",
+        "无上限",
+        "历史消息"
+      ],
+      "search_time": 0.318,
+      "results_count": 5,
+      "recall_analysis": {
+        "matched_keywords": [
+          "AVChatRoom",
+          "历史消息"
+        ],
+        "missing_keywords": [
+          "直播群",
+          "无上限"
+        ],
+        "keyword_coverage": 0.5,
+        "total_keywords": 4
+      },
+      "top_results": [
+        {
+          "rank": 1,
+          "title": "批量导入与自动回收差异",
+          "similarity_score": 0.2211,
+          "char_count": 563,
+          "content_preview": "### 批量导入与自动回收差异\n\n| 群组类型 | 支持批量导入 | 自动回收 |\n|----------|-------------|----------|\n| Work | 支持 | 群组没有活跃..."
+        },
+        {
+          "rank": 2,
+          "title": "群组限制差异",
+          "similarity_score": 0.1084,
+          "char_count": 373,
+          "content_preview": "### 群组限制差异\n\n| 群组类型 | 群资料搜索 | 群成员资料对外展示 | 申请加群理由长度 |\n|----------|-----------|----------------|-------..."
+        },
+        {
+          "rank": 3,
+          "title": "群组基础能力操作差异",
+          "similarity_score": 0.0282,
+          "char_count": 982,
+          "content_preview": "### 群组基础能力操作差异\n\n不同类型的群组在基础能力操作上存在差异：\n\n| 群组类型 | 群主管理权限 | 群成员邀请权限 | 群资料修改权限 | 群消息接收模式 |\n|----------|--..."
+        }
+      ]
+    },
+    {
+      "query": "社群Community支持多少人",
+      "category": "群组规模查询",
+      "expected_keywords": [
+        "Community",
+        "社群",
+        "10万",
+        "100万"
+      ],
+      "search_time": 0.436,
+      "results_count": 5,
+      "recall_analysis": {
+        "matched_keywords": [
+          "Community",
+          "社群",
+          "10万",
+          "100万"
+        ],
+        "missing_keywords": [],
+        "keyword_coverage": 1.0,
+        "total_keywords": 4
+      },
+      "top_results": [
+        {
+          "rank": 1,
+          "title": "批量导入与自动回收差异",
+          "similarity_score": 0.242,
+          "char_count": 563,
+          "content_preview": "### 批量导入与自动回收差异\n\n| 群组类型 | 支持批量导入 | 自动回收 |\n|----------|-------------|----------|\n| Work | 支持 | 群组没有活跃..."
+        },
+        {
+          "rank": 2,
+          "title": "成员管理能力差异",
+          "similarity_score": 0.206,
+          "char_count": 495,
+          "content_preview": "### 成员管理能力差异\n\n| 群组类型 | 群成员上限 | 踢出群成员 | 禁言群成员 | 设置管理员 |\n|----------|-----------|-----------|---------..."
+        },
+        {
+          "rank": 3,
+          "title": "群组限制差异",
+          "similarity_score": 0.2007,
+          "char_count": 373,
+          "content_preview": "### 群组限制差异\n\n| 群组类型 | 群资料搜索 | 群成员资料对外展示 | 申请加群理由长度 |\n|----------|-----------|----------------|-------..."
+        }
+      ]
+    },
+    {
+      "query": "如何设置群组权限",
+      "category": "权限配置查询",
+      "expected_keywords": [
+        "权限",
+        "权限组",
+        "按位",
+        "管理"
+      ],
+      "search_time": 0.316,
+      "results_count": 5,
+      "recall_analysis": {
+        "matched_keywords": [
+          "权限",
+          "权限组",
+          "按位",
+          "管理"
+        ],
+        "missing_keywords": [],
+        "keyword_coverage": 1.0,
+        "total_keywords": 4
+      },
+      "top_results": [
+        {
+          "rank": 1,
+          "title": "权限组中的权限含义介绍",
+          "similarity_score": 0.2426,
+          "char_count": 3418,
+          "content_preview": "### 权限组中的权限含义介绍\n\n社群（Community）支持权限组功能，可以对不同的成员设置不同的权限。权限采用按位的方式进行表示，各个权限位的含义如下：\n\n| 权限名称 | 权限含义 | 权限值..."
+        },
+        {
+          "rank": 2,
+          "title": "群组限制差异",
+          "similarity_score": 0.197,
+          "char_count": 373,
+          "content_preview": "### 群组限制差异\n\n| 群组类型 | 群资料搜索 | 群成员资料对外展示 | 申请加群理由长度 |\n|----------|-----------|----------------|-------..."
+        },
+        {
+          "rank": 3,
+          "title": "群组基础能力操作差异",
+          "similarity_score": 0.1787,
+          "char_count": 982,
+          "content_preview": "### 群组基础能力操作差异\n\n不同类型的群组在基础能力操作上存在差异：\n\n| 群组类型 | 群主管理权限 | 群成员邀请权限 | 群资料修改权限 | 群消息接收模式 |\n|----------|--..."
+        }
+      ]
+    },
+    {
+      "query": "Work群和Public群的区别是什么",
+      "category": "群组对比查询",
+      "expected_keywords": [
+        "Work",
+        "Public",
+        "差异",
+        "邀请",
+        "申请"
+      ],
+      "search_time": 0.4,
+      "results_count": 5,
+      "recall_analysis": {
+        "matched_keywords": [
+          "Work",
+          "Public",
+          "差异",
+          "邀请",
+          "申请"
+        ],
+        "missing_keywords": [],
+        "keyword_coverage": 1.0,
+        "total_keywords": 5
+      },
+      "top_results": [
+        {
+          "rank": 1,
+          "title": "批量导入与自动回收差异",
+          "similarity_score": 0.2637,
+          "char_count": 563,
+          "content_preview": "### 批量导入与自动回收差异\n\n| 群组类型 | 支持批量导入 | 自动回收 |\n|----------|-------------|----------|\n| Work | 支持 | 群组没有活跃..."
+        },
+        {
+          "rank": 2,
+          "title": "群组限制差异",
+          "similarity_score": 0.1945,
+          "char_count": 373,
+          "content_preview": "### 群组限制差异\n\n| 群组类型 | 群资料搜索 | 群成员资料对外展示 | 申请加群理由长度 |\n|----------|-----------|----------------|-------..."
+        },
+        {
+          "rank": 3,
+          "title": "加群方式差异",
+          "similarity_score": 0.1386,
+          "char_count": 375,
+          "content_preview": "### 加群方式差异\n\n| 群组类型 | 申请加群 | 邀请加群 | 自由进出 |\n|----------|----------|----------|----------|\n| Work | 不支持..."
+        }
+      ]
+    },
+    {
+      "query": "群成员资料包含哪些字段",
+      "category": "数据结构查询",
+      "expected_keywords": [
+        "成员资料",
+        "Member_Account",
+        "Role",
+        "JoinTime"
+      ],
+      "search_time": 0.341,
+      "results_count": 5,
+      "recall_analysis": {
+        "matched_keywords": [
+          "成员资料",
+          "Member_Account",
+          "Role",
+          "JoinTime"
+        ],
+        "missing_keywords": [],
+        "keyword_coverage": 1.0,
+        "total_keywords": 4
+      },
+      "top_results": [
+        {
+          "rank": 1,
+          "title": "群基础资料",
+          "similarity_score": 0.246,
+          "char_count": 1133,
+          "content_preview": "### 群基础资料\n\n群基础资料指的是群组名称、群公告、群介绍、群头像等基础信息。\n\n| 字段 | 含义 | 备注 |\n|------|------|------|\n| GroupId | 群组 ID..."
+        },
+        {
+          "rank": 2,
+          "title": "群组限制差异",
+          "similarity_score": 0.2305,
+          "char_count": 373,
+          "content_preview": "### 群组限制差异\n\n| 群组类型 | 群资料搜索 | 群成员资料对外展示 | 申请加群理由长度 |\n|----------|-----------|----------------|-------..."
+        },
+        {
+          "rank": 3,
+          "title": "群成员资料",
+          "similarity_score": 0.2243,
+          "char_count": 775,
+          "content_preview": "### 群成员资料\n\n群成员资料指的是群成员的昵称、角色、入群时间等信息。\n\n| 字段 | 含义 | 备注 |\n|------|------|------|\n| Member_Account | 成员..."
+        }
+      ]
+    },
+    {
+      "query": "消息存储和漫游功能",
+      "category": "消息功能查询",
+      "expected_keywords": [
+        "消息",
+        "存储",
+        "漫游",
+        "历史消息"
+      ],
+      "search_time": 0.386,
+      "results_count": 5,
+      "recall_analysis": {
+        "matched_keywords": [
+          "消息",
+          "存储",
+          "漫游",
+          "历史消息"
+        ],
+        "missing_keywords": [],
+        "keyword_coverage": 1.0,
+        "total_keywords": 4
+      },
+      "top_results": [
+        {
+          "rank": 1,
+          "title": "消息能力差异",
+          "similarity_score": 0.1573,
+          "char_count": 416,
+          "content_preview": "### 消息能力差异\n\n| 群组类型 | 历史消息存储 | 离线推送 | 消息漫游 | 消息回调 |\n|----------|-------------|----------|----------|-..."
+        },
+        {
+          "rank": 2,
+          "title": "群组限制差异",
+          "similarity_score": 0.0745,
+          "char_count": 373,
+          "content_preview": "### 群组限制差异\n\n| 群组类型 | 群资料搜索 | 群成员资料对外展示 | 申请加群理由长度 |\n|----------|-----------|----------------|-------..."
+        },
+        {
+          "rank": 3,
+          "title": "批量导入与自动回收差异",
+          "similarity_score": 0.0441,
+          "char_count": 563,
+          "content_preview": "### 批量导入与自动回收差异\n\n| 群组类型 | 支持批量导入 | 自动回收 |\n|----------|-------------|----------|\n| Work | 支持 | 群组没有活跃..."
+        }
+      ]
+    },
+    {
+      "query": "自定义字段有什么特性",
+      "category": "功能特性查询",
+      "expected_keywords": [
+        "自定义字段",
+        "Key-Value",
+        "读权限",
+        "写权限"
+      ],
+      "search_time": 0.366,
+      "results_count": 5,
+      "recall_analysis": {
+        "matched_keywords": [
+          "自定义字段",
+          "Key-Value",
+          "读权限",
+          "写权限"
+        ],
+        "missing_keywords": [],
+        "keyword_coverage": 1.0,
+        "total_keywords": 4
+      },
+      "top_results": [
+        {
+          "rank": 1,
+          "title": "批量导入与自动回收差异",
+          "similarity_score": 0.1173,
+          "char_count": 563,
+          "content_preview": "### 批量导入与自动回收差异\n\n| 群组类型 | 支持批量导入 | 自动回收 |\n|----------|-------------|----------|\n| Work | 支持 | 群组没有活跃..."
+        },
+        {
+          "rank": 2,
+          "title": "特性介绍",
+          "similarity_score": 0.1087,
+          "char_count": 1661,
+          "content_preview": "### 特性介绍\n\n每个自定义字段有以下特性：\n\n- 为 Key-Value 形式。\n- Key 为 String 类型，长度不超过16字节，其命名仅支持英文大小写字母、数字、下划线。\n- Value..."
+        },
+        {
+          "rank": 3,
+          "title": "群组限制差异",
+          "similarity_score": 0.0427,
+          "char_count": 373,
+          "content_preview": "### 群组限制差异\n\n| 群组类型 | 群资料搜索 | 群成员资料对外展示 | 申请加群理由长度 |\n|----------|-----------|----------------|-------..."
+        }
+      ]
+    },
+    {
+      "query": "群组自动回收规则",
+      "category": "规则查询",
+      "expected_keywords": [
+        "自动回收",
+        "活跃成员",
+        "40天",
+        "解散"
+      ],
+      "search_time": 0.368,
+      "results_count": 5,
+      "recall_analysis": {
+        "matched_keywords": [
+          "自动回收",
+          "活跃成员",
+          "40天",
+          "解散"
+        ],
+        "missing_keywords": [],
+        "keyword_coverage": 1.0,
+        "total_keywords": 4
+      },
+      "top_results": [
+        {
+          "rank": 1,
+          "title": "批量导入与自动回收差异",
+          "similarity_score": 0.4169,
+          "char_count": 563,
+          "content_preview": "### 批量导入与自动回收差异\n\n| 群组类型 | 支持批量导入 | 自动回收 |\n|----------|-------------|----------|\n| Work | 支持 | 群组没有活跃..."
+        },
+        {
+          "rank": 2,
+          "title": "群组限制差异",
+          "similarity_score": 0.1203,
+          "char_count": 373,
+          "content_preview": "### 群组限制差异\n\n| 群组类型 | 群资料搜索 | 群成员资料对外展示 | 申请加群理由长度 |\n|----------|-----------|----------------|-------..."
+        },
+        {
+          "rank": 3,
+          "title": "群基础资料",
+          "similarity_score": 0.0682,
+          "char_count": 1133,
+          "content_preview": "### 群基础资料\n\n群基础资料指的是群组名称、群公告、群介绍、群头像等基础信息。\n\n| 字段 | 含义 | 备注 |\n|------|------|------|\n| GroupId | 群组 ID..."
+        }
+      ]
+    }
+  ],
+  "config": {
+    "tencent_cloud": {
+      "secret_id": "your_secret_id_here",
+      "secret_key": "your_secret_key_here",
+      "region": "ap-guangzhou"
+    },
+    "vector_database": {
+      "name": "tencent.im.db",
+      "batch_size": 3,
+      "embedding_model": "lke-text-embedding-v1"
+    },
+    "documents": {
+      "source_file": "/Users/zhangtianqi/git_root/agent_homework/ch8/腾讯云IM群组系统完整文档.md",
+      "split_level": "###"
+    }
+  }
+}

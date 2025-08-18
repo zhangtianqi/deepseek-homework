@@ -1,0 +1,16 @@
+{
+  "tencent_cloud": {
+    "secret_id": "your_secret_id_here",
+    "secret_key": "your_secret_key_here",
+    "region": "ap-guangzhou"
+  },
+  "vector_database": {
+    "name": "tencent.im.db",
+    "batch_size": 3,
+    "embedding_model": "lke-text-embedding-v1"
+  },
+  "documents": {
+    "source_file": "/Users/zhangtianqi/git_root/agent_homework/ch8/腾讯云IM群组系统完整文档.md",
+    "split_level": "###"
+  }
+}

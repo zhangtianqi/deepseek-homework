@@ -1,0 +1,44 @@
+{
+  "database_info": {
+    "name": "tencent.im.db",
+    "total_documents": 12,
+    "embedding_dimension": 384,
+    "persist_directory": "./tencent.im.db"
+  },
+  "search_examples": [
+    {
+      "query": "直播群有什么特点",
+      "results": [
+        {
+          "title": "成员管理能力差异",
+          "similarity_score": -0.8634942770004272,
+          "char_count": 495,
+          "content_preview": "### 成员管理能力差异\n\n| 群组类型 | 群成员上限 | 踢出群成员 | 禁言群成员 | 设置管理员 |\n|----------|-----------|-----------|-----------|-----------|\n| Work | 200（可扩展至6000） | 不支持 | 不支持 | 不支持 |\n| Public | 2000（可扩展至6000） | 支持 | 支持 | 支持 "
+        },
+        {
+          "title": "特性介绍",
+          "similarity_score": -0.8795101642608643,
+          "char_count": 1661,
+          "content_preview": "### 特性介绍\n\n每个自定义字段有以下特性：\n\n- 为 Key-Value 形式。\n- Key 为 String 类型，长度不超过16字节，其命名仅支持英文大小写字母、数字、下划线。\n- Value 为用户自定义 Buffer，可以为二进制数据，群维度的 Value 长度不超过512字节，群成员维度的 Value 长度不超过64字节。如果 Value 是二进制数据，需要转化为可打印纯文本字符流再"
+        }
+      ]
+    },
+    {
+      "query": "如何设置群组权限",
+      "results": [
+        {
+          "title": "权限组中的权限含义介绍",
+          "similarity_score": -0.8144698143005371,
+          "char_count": 3418,
+          "content_preview": "### 权限组中的权限含义介绍\n\n社群（Community）支持权限组功能，可以对不同的成员设置不同的权限。权限采用按位的方式进行表示，各个权限位的含义如下：\n\n| 权限名称 | 权限含义 | 权限值 |\n|----------|----------|---------|\n| ModifyGroupInfo | 修改群资料权限 | 1<<0 |\n| KickGroupMember | 踢出群成员权"
+        },
+        {
+          "title": "群基础资料",
+          "similarity_score": -0.9175891876220703,
+          "char_count": 1133,
+          "content_preview": "### 群基础资料\n\n群基础资料指的是群组名称、群公告、群介绍、群头像等基础信息。\n\n| 字段 | 含义 | 备注 |\n|------|------|------|\n| GroupId | 群组 ID | 群组的唯一标识，由系统生成或用户指定 |\n| Type | 群组类型 | Work、Public、Meeting、AVChatRoom、Community |\n| Name | 群组名称 | 群"
+        }
+      ]
+    }
+  ]
+}
