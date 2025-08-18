@@ -1,1 +1,1 @@
-deepseek homework
+1deepseek homework
